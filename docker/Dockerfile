@@ -1,4 +1,4 @@
-FROM java:openjdk-8u111-jdk
+FROM openjdk:8-jdk
 COPY myspringboot.jar /usr/local
 WORKDIR /usr/local
 CMD java -jar myspringboot.jar
